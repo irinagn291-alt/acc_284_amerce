@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "filename": "amc_CardBackdrop.png",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

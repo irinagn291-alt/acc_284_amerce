@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0250408C0614D44E1256A006 /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1C990BA7BBEC3FBEADF278 /* Arena.swift */; };
+		03DFC4D6A97838EC99C5A9EB /* ArenaSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C2C40F4BE2DB3422C84D1 /* ArenaSeed.swift */; };
+		063A90D118D3267FBB7257E7 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = D1ED860BA62AAB13535C30B2 /* OneSignalFramework */; };
+		0C96B895E7A6892084E7EC68 /* OnboardingPamphlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6CC35157D1F7C675F1295 /* OnboardingPamphlet.swift */; };
+		0F2B31F4F9B9259446D6C9FC /* NightStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD3B12A6E9A63AB3C22431 /* NightStamp.swift */; };
+		14C3DB6A09921870E8C18BC6 /* ArenaVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB788CBC8B8DF74DB52DCDC5 /* ArenaVaultTests.swift */; };
+		16F1E41DB88A95B727F94EE0 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB060189A4E6757F5B53FD /* FamilyInvariantTests.swift */; };
+		1E694F678A0FEB71C4EDCE32 /* AmerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7D6AE0C5F1C94DA14D75E /* AmerceTests.swift */; };
+		2009B0E39A14F2017428EE49 /* Pack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C4A4490B0FE3C67D4F08F /* Pack.swift */; };
+		23936911666E372F1AF295B8 /* WheelChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6784191D95C4815B000C2 /* WheelChart.swift */; };
+		292086E6F521253DDBAB9511 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3768A631DF7D9FCE42C8EE7F /* Alamofire */; };
+		2F040C0F6861F584A6D4DB3E /* ParlorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27E38F661A1B8ED2CB14F0 /* ParlorSheet.swift */; };
+		2FA700A37E7A858C24856BF1 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1EB7179FB42449C70DED4D49 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		31ADF94442C7040C2D03724B /* ParlorArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31861E8060C8C129EFA9E454 /* ParlorArt.swift */; };
+		416BB623785172BD8A1B37E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325D99F3FF016D6BB8EA8D07 /* AppDelegate.swift */; };
+		46709BA12C5B356F4EEF668F /* ArenaStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56F1BB3EED493DF5E94146 /* ArenaStage.swift */; };
+		469CE04E1ADD3AFFCDB76FAA /* CardRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97413E140B7FEDB3793F3D20 /* CardRunnerTests.swift */; };
+		5C9DDC1F05F249D23EE0922C /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E40700D32C8EFDA24674FC /* Name.swift */; };
+		5D0E13626E424377FC1442A4 /* ArenaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6766DA862D4BDFA6D1F2F8D /* ArenaStore.swift */; };
+		5D4F92880B8EE97030FDF806 /* ArenaVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F98B152C470AEA27A56A2 /* ArenaVault.swift */; };
+		6009959CCF313C26C51BCCEE /* AmerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239B4967EE8DFFFFE17818CD /* AmerceApp.swift */; };
+		74732D98155DC3491F23DD38 /* ForfeitFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2ED99E72C7B6E8E937CFC /* ForfeitFoldTests.swift */; };
+		751741436D7EBCD2153BB49F /* StackMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F7DD280BD82513F1E50FA7 /* StackMark.swift */; };
+		77D01D8CEAF3E151B32BE341 /* PackHeatStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4E4BC27C9CC741DF5955D /* PackHeatStrip.swift */; };
+		79E27639D1A6E650FCCE5DB9 /* ReviewStageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785ADBEA5DFA8FD55420878A /* ReviewStageTests.swift */; };
+		87145482E97DA85BBBC97750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B0E925C1B2FD3FC350A9D2 /* Assets.xcassets */; };
+		8AAF44C3710F0E973DA30C0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF399D8455A9D3CB79BF9782 /* ContentView.swift */; };
+		9CF95B5248F96E649226CF40 /* NightLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2F1762CB170B799B2F323 /* NightLedger.swift */; };
+		9D7FA45257DB1B5AD56F2EF6 /* ClearMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC4CD15EAFF6D609070C7E5 /* ClearMark.swift */; };
+		A0683F7F96D8CDA46DA90BCE /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 8D91F9C5CE936E0C70CD3A44 /* OneSignalInAppMessages */; };
+		A74AFED969973CB90BC0FAD9 /* ParlorDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4D015DEA4C2511A6111CBE /* ParlorDesk.swift */; };
+		AC80BAC4D003EF173CA54135 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92BC3015B66FE1E03DBFFB7 /* NotificationService.swift */; };
+		BE362F07BBFF5E49F5F561A5 /* ParlorFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F824DDB1F8FF762B2D33B /* ParlorFigures.swift */; };
+		C1AA16B1B693933524BF473B /* ArenaMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7931E1A2F62E82FCD5D1CB6 /* ArenaMemory.swift */; };
+		C5227428BAEADEF9592A0BD2 /* ArenaDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC1BFA6CE8D81B4CE39518 /* ArenaDocument.swift */; };
+		C6422B71FDF5F0E157C42E68 /* ParlorLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9AF0CA5D22995E27D5BCC /* ParlorLift.swift */; };
+		D1320071BF23CAFDD8B05F5F /* ParlorInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8902935AF18789D48B2BD /* ParlorInk.swift */; };
+		D53BC0B2D46BB9BB73BBC77A /* CardRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566519B4B9473AB5E35FD5B6 /* CardRunner.swift */; };
+		DB0BC88E17DF050A72CFB66E /* ArenaBooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018B9157259916CC0AAAE24 /* ArenaBooth.swift */; };
+		E018DC319D32186E17ED3521 /* ForfeitRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279F7652421BABDDC40CB91 /* ForfeitRail.swift */; };
+		E310C0715A655A93F827037F /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 1A00DD67CDC41659AC2D3294 /* OneSignalExtension */; };
+		E4E814C5D373A749AADEA1A5 /* ParlorPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64D8C618C689B6C6220F30 /* ParlorPress.swift */; };
+		E5A8C553F5914A33DEFB742F /* WheelTurn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A3DBDDA47F81AEF8B9C738 /* WheelTurn.swift */; };
+		E682D666C57A8814B67E86A9 /* Forfeit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E22DFECC4D3EC1AF014FE1 /* Forfeit.swift */; };
+		E6A6E05ED027E0A2305ABCF5 /* PackHeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7330C342074945E59B7CEC /* PackHeat.swift */; };
+		EB1A0413C031DD494C48277F /* ParlorPacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3037BD669F2F07CA1AADB4D /* ParlorPacks.swift */; };
+		F04E4D0519ADADA40A1AC08F /* PackSeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D0795858063FB6DF83A18 /* PackSeal.swift */; };
+		F51E8052533201D0116F5BE4 /* ReviewStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A238D1FFF13DEB01B60D813 /* ReviewStage.swift */; };
+		FB556BF1AA914662189FA0FE /* NightBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753CAD3F8B290D764F1B62B5 /* NightBook.swift */; };
+		FD45C331629E0DB30604044F /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B8382CB9CF68ABA558D2F /* APIConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38B113330BC864EEBDA2ACA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86E408C4AD3634C82C8C99B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B7ED2312DE5D9801D6C7515;
+			remoteInfo = Amerce;
+		};
+		BE21D8D40784F943AA72A607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86E408C4AD3634C82C8C99B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5789EC084F0A534B7E1792B5;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E4AA179D01D4FE2779AF34A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2FA700A37E7A858C24856BF1 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09AB060189A4E6757F5B53FD /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		0CB2F1762CB170B799B2F323 /* NightLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightLedger.swift; sourceTree = "<group>"; };
+		16E8902935AF18789D48B2BD /* ParlorInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlorInk.swift; sourceTree = "<group>"; };
+		1D9C2C40F4BE2DB3422C84D1 /* ArenaSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaSeed.swift; sourceTree = "<group>"; };
+		1EB7179FB42449C70DED4D49 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		213B8382CB9CF68ABA558D2F /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		239B4967EE8DFFFFE17818CD /* AmerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmerceApp.swift; sourceTree = "<group>"; };
+		2A238D1FFF13DEB01B60D813 /* ReviewStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStage.swift; sourceTree = "<group>"; };
+		31861E8060C8C129EFA9E454 /* ParlorArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlorArt.swift; sourceTree = "<group>"; };
+		325D99F3FF016D6BB8EA8D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32A3DBDDA47F81AEF8B9C738 /* WheelTurn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelTurn.swift; sourceTree = "<group>"; };
+		3CE9AF0CA5D22995E27D5BCC /* ParlorLift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlorLift.swift; sourceTree = "<group>"; };
+		46E40700D32C8EFDA24674FC /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		5279F7652421BABDDC40CB91 /* ForfeitRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForfeitRail.swift; sourceTree = "<group>"; };
+		566519B4B9473AB5E35FD5B6 /* CardRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRunner.swift; sourceTree = "<group>"; };
+		5F64D8C618C689B6C6220F30 /* ParlorPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlorPress.swift; sourceTree = "<group>"; };
+		6018B9157259916CC0AAAE24 /* ArenaBooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaBooth.swift; sourceTree = "<group>"; };
+		6B7330C342074945E59B7CEC /* PackHeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackHeat.swift; sourceTree = "<group>"; };
+		6C1C990BA7BBEC3FBEADF278 /* Arena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arena.swift; sourceTree = "<group>"; };
+		6D4D015DEA4C2511A6111CBE /* ParlorDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlorDesk.swift; sourceTree = "<group>"; };
+		753CAD3F8B290D764F1B62B5 /* NightBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightBook.swift; sourceTree = "<group>"; };
+		76C2ED99E72C7B6E8E937CFC /* ForfeitFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForfeitFoldTests.swift; sourceTree = "<group>"; };
+		785ADBEA5DFA8FD55420878A /* ReviewStageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewStageTests.swift; sourceTree = "<group>"; };
+		79D678EBD93372606F402ECE /* AmerceTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AmerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B7D6AE0C5F1C94DA14D75E /* AmerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmerceTests.swift; sourceTree = "<group>"; };
+		8E27E38F661A1B8ED2CB14F0 /* ParlorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlorSheet.swift; sourceTree = "<group>"; };
+		904F824DDB1F8FF762B2D33B /* ParlorFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlorFigures.swift; sourceTree = "<group>"; };
+		924F98B152C470AEA27A56A2 /* ArenaVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaVault.swift; sourceTree = "<group>"; };
+		97413E140B7FEDB3793F3D20 /* CardRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRunnerTests.swift; sourceTree = "<group>"; };
+		A3037BD669F2F07CA1AADB4D /* ParlorPacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParlorPacks.swift; sourceTree = "<group>"; };
+		A7B0E925C1B2FD3FC350A9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC4CD15EAFF6D609070C7E5 /* ClearMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearMark.swift; sourceTree = "<group>"; };
+		BDCD3B12A6E9A63AB3C22431 /* NightStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightStamp.swift; sourceTree = "<group>"; };
+		BF399D8455A9D3CB79BF9782 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6E22DFECC4D3EC1AF014FE1 /* Forfeit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forfeit.swift; sourceTree = "<group>"; };
+		C92BC3015B66FE1E03DBFFB7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CDA6784191D95C4815B000C2 /* WheelChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelChart.swift; sourceTree = "<group>"; };
+		D808A569ED424AEED4ACE015 /* Amerce.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Amerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB788CBC8B8DF74DB52DCDC5 /* ArenaVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaVaultTests.swift; sourceTree = "<group>"; };
+		DDAC1BFA6CE8D81B4CE39518 /* ArenaDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaDocument.swift; sourceTree = "<group>"; };
+		E6766DA862D4BDFA6D1F2F8D /* ArenaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaStore.swift; sourceTree = "<group>"; };
+		F17D0795858063FB6DF83A18 /* PackSeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackSeal.swift; sourceTree = "<group>"; };
+		F5F7DD280BD82513F1E50FA7 /* StackMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackMark.swift; sourceTree = "<group>"; };
+		F7931E1A2F62E82FCD5D1CB6 /* ArenaMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaMemory.swift; sourceTree = "<group>"; };
+		F7A4E4BC27C9CC741DF5955D /* PackHeatStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackHeatStrip.swift; sourceTree = "<group>"; };
+		F81C4A4490B0FE3C67D4F08F /* Pack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pack.swift; sourceTree = "<group>"; };
+		FD56F1BB3EED493DF5E94146 /* ArenaStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaStage.swift; sourceTree = "<group>"; };
+		FFC6CC35157D1F7C675F1295 /* OnboardingPamphlet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPamphlet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29A2A1C32F7E4F4487FD478F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E310C0715A655A93F827037F /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8F9416E65AE50EE7A4DB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292086E6F521253DDBAB9511 /* Alamofire in Frameworks */,
+				063A90D118D3267FBB7257E7 /* OneSignalFramework in Frameworks */,
+				A0683F7F96D8CDA46DA90BCE /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA2ADC483A28304CE07AD7E /* StackMark */ = {
+			isa = PBXGroup;
+			children = (
+				F5F7DD280BD82513F1E50FA7 /* StackMark.swift */,
+			);
+			path = StackMark;
+			sourceTree = "<group>";
+		};
+		23DB8CCBD319F5BE1A80158E /* Pack */ = {
+			isa = PBXGroup;
+			children = (
+				566519B4B9473AB5E35FD5B6 /* CardRunner.swift */,
+				F81C4A4490B0FE3C67D4F08F /* Pack.swift */,
+				6B7330C342074945E59B7CEC /* PackHeat.swift */,
+				F7A4E4BC27C9CC741DF5955D /* PackHeatStrip.swift */,
+				F17D0795858063FB6DF83A18 /* PackSeal.swift */,
+				A3037BD669F2F07CA1AADB4D /* ParlorPacks.swift */,
+			);
+			path = Pack;
+			sourceTree = "<group>";
+		};
+		594EBE159BDADFD9B1FD256E /* Forfeit */ = {
+			isa = PBXGroup;
+			children = (
+				C6E22DFECC4D3EC1AF014FE1 /* Forfeit.swift */,
+				5279F7652421BABDDC40CB91 /* ForfeitRail.swift */,
+				753CAD3F8B290D764F1B62B5 /* NightBook.swift */,
+				0CB2F1762CB170B799B2F323 /* NightLedger.swift */,
+			);
+			path = Forfeit;
+			sourceTree = "<group>";
+		};
+		5950F2244ADF91182D5BAA2C /* ClearMark */ = {
+			isa = PBXGroup;
+			children = (
+				AEC4CD15EAFF6D609070C7E5 /* ClearMark.swift */,
+			);
+			path = ClearMark;
+			sourceTree = "<group>";
+		};
+		660479D0088AF0468D213CD8 /* AmerceTests */ = {
+			isa = PBXGroup;
+			children = (
+				85B7D6AE0C5F1C94DA14D75E /* AmerceTests.swift */,
+				DB788CBC8B8DF74DB52DCDC5 /* ArenaVaultTests.swift */,
+				97413E140B7FEDB3793F3D20 /* CardRunnerTests.swift */,
+				09AB060189A4E6757F5B53FD /* FamilyInvariantTests.swift */,
+				76C2ED99E72C7B6E8E937CFC /* ForfeitFoldTests.swift */,
+				785ADBEA5DFA8FD55420878A /* ReviewStageTests.swift */,
+			);
+			path = AmerceTests;
+			sourceTree = "<group>";
+		};
+		6EA1E82536450D24EABA85C4 /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				46E40700D32C8EFDA24674FC /* Name.swift */,
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
+		AEAEFAF6D2747CFF00F0C97E = {
+			isa = PBXGroup;
+			children = (
+				DCEE5F264236141CDB50D004 /* Amerce */,
+				660479D0088AF0468D213CD8 /* AmerceTests */,
+				DCB616FF827D376EF61F8F8C /* OneSignalNotificationServiceExtension */,
+				AEDF77B411D56D65851A365B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEDF77B411D56D65851A365B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D808A569ED424AEED4ACE015 /* Amerce.app */,
+				79D678EBD93372606F402ECE /* AmerceTests.xctest */,
+				1EB7179FB42449C70DED4D49 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB616FF827D376EF61F8F8C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C92BC3015B66FE1E03DBFFB7 /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		DCEE5F264236141CDB50D004 /* Amerce */ = {
+			isa = PBXGroup;
+			children = (
+				239B4967EE8DFFFFE17818CD /* AmerceApp.swift */,
+				213B8382CB9CF68ABA558D2F /* APIConfig.swift */,
+				325D99F3FF016D6BB8EA8D07 /* AppDelegate.swift */,
+				A7B0E925C1B2FD3FC350A9D2 /* Assets.xcassets */,
+				BF399D8455A9D3CB79BF9782 /* ContentView.swift */,
+				E64F9C75BA19F9AA85B68D2B /* Arena */,
+				5950F2244ADF91182D5BAA2C /* ClearMark */,
+				594EBE159BDADFD9B1FD256E /* Forfeit */,
+				6EA1E82536450D24EABA85C4 /* Name */,
+				23DB8CCBD319F5BE1A80158E /* Pack */,
+				0AA2ADC483A28304CE07AD7E /* StackMark */,
+			);
+			path = Amerce;
+			sourceTree = "<group>";
+		};
+		E64F9C75BA19F9AA85B68D2B /* Arena */ = {
+			isa = PBXGroup;
+			children = (
+				6C1C990BA7BBEC3FBEADF278 /* Arena.swift */,
+				6018B9157259916CC0AAAE24 /* ArenaBooth.swift */,
+				DDAC1BFA6CE8D81B4CE39518 /* ArenaDocument.swift */,
+				F7931E1A2F62E82FCD5D1CB6 /* ArenaMemory.swift */,
+				1D9C2C40F4BE2DB3422C84D1 /* ArenaSeed.swift */,
+				FD56F1BB3EED493DF5E94146 /* ArenaStage.swift */,
+				E6766DA862D4BDFA6D1F2F8D /* ArenaStore.swift */,
+				924F98B152C470AEA27A56A2 /* ArenaVault.swift */,
+				BDCD3B12A6E9A63AB3C22431 /* NightStamp.swift */,
+				FFC6CC35157D1F7C675F1295 /* OnboardingPamphlet.swift */,
+				31861E8060C8C129EFA9E454 /* ParlorArt.swift */,
+				6D4D015DEA4C2511A6111CBE /* ParlorDesk.swift */,
+				904F824DDB1F8FF762B2D33B /* ParlorFigures.swift */,
+				16E8902935AF18789D48B2BD /* ParlorInk.swift */,
+				3CE9AF0CA5D22995E27D5BCC /* ParlorLift.swift */,
+				5F64D8C618C689B6C6220F30 /* ParlorPress.swift */,
+				8E27E38F661A1B8ED2CB14F0 /* ParlorSheet.swift */,
+				2A238D1FFF13DEB01B60D813 /* ReviewStage.swift */,
+				CDA6784191D95C4815B000C2 /* WheelChart.swift */,
+				32A3DBDDA47F81AEF8B9C738 /* WheelTurn.swift */,
+			);
+			path = Arena;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D7881243B1C4CEE2F72901 /* AmerceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F81B92E1F781FFAF8DB2167 /* Build configuration list for PBXNativeTarget "AmerceTests" */;
+			buildPhases = (
+				D1833915A13995146843229D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7D93F9180231300ADF44CCD /* PBXTargetDependency */,
+			);
+			name = AmerceTests;
+			packageProductDependencies = (
+			);
+			productName = AmerceTests;
+			productReference = 79D678EBD93372606F402ECE /* AmerceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5789EC084F0A534B7E1792B5 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553C371B6602C46D8F63BC88 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				00BD2260037DBCC89CAE0EA7 /* Sources */,
+				29A2A1C32F7E4F4487FD478F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				1A00DD67CDC41659AC2D3294 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 1EB7179FB42449C70DED4D49 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5B7ED2312DE5D9801D6C7515 /* Amerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5F2DE1F6ADE58F0C75D3B2 /* Build configuration list for PBXNativeTarget "Amerce" */;
+			buildPhases = (
+				01665EF12527A7856F439EB8 /* Sources */,
+				BC1D67ECA923A14B689FB112 /* Resources */,
+				3F8F9416E65AE50EE7A4DB05 /* Frameworks */,
+				8E4AA179D01D4FE2779AF34A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E85A528E7FA195A18501C450 /* PBXTargetDependency */,
+			);
+			name = Amerce;
+			packageProductDependencies = (
+				3768A631DF7D9FCE42C8EE7F /* Alamofire */,
+				D1ED860BA62AAB13535C30B2 /* OneSignalFramework */,
+				8D91F9C5CE936E0C70CD3A44 /* OneSignalInAppMessages */,
+			);
+			productName = Amerce;
+			productReference = D808A569ED424AEED4ACE015 /* Amerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86E408C4AD3634C82C8C99B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					18D7881243B1C4CEE2F72901 = {
+						ProvisioningStyle = Automatic;
+					};
+					5789EC084F0A534B7E1792B5 = {
+						ProvisioningStyle = Automatic;
+					};
+					5B7ED2312DE5D9801D6C7515 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FA5B8963268ECC8AE51237C /* Build configuration list for PBXProject "Amerce" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AEAEFAF6D2747CFF00F0C97E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C932D69F9C44E4DD45E3D963 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				5B7F86C0D6F8B4CDA44CB999 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AEDF77B411D56D65851A365B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7ED2312DE5D9801D6C7515 /* Amerce */,
+				18D7881243B1C4CEE2F72901 /* AmerceTests */,
+				5789EC084F0A534B7E1792B5 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1D67ECA923A14B689FB112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87145482E97DA85BBBC97750 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00BD2260037DBCC89CAE0EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC80BAC4D003EF173CA54135 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01665EF12527A7856F439EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD45C331629E0DB30604044F /* APIConfig.swift in Sources */,
+				6009959CCF313C26C51BCCEE /* AmerceApp.swift in Sources */,
+				416BB623785172BD8A1B37E9 /* AppDelegate.swift in Sources */,
+				0250408C0614D44E1256A006 /* Arena.swift in Sources */,
+				DB0BC88E17DF050A72CFB66E /* ArenaBooth.swift in Sources */,
+				C5227428BAEADEF9592A0BD2 /* ArenaDocument.swift in Sources */,
+				C1AA16B1B693933524BF473B /* ArenaMemory.swift in Sources */,
+				03DFC4D6A97838EC99C5A9EB /* ArenaSeed.swift in Sources */,
+				46709BA12C5B356F4EEF668F /* ArenaStage.swift in Sources */,
+				5D0E13626E424377FC1442A4 /* ArenaStore.swift in Sources */,
+				5D4F92880B8EE97030FDF806 /* ArenaVault.swift in Sources */,
+				D53BC0B2D46BB9BB73BBC77A /* CardRunner.swift in Sources */,
+				9D7FA45257DB1B5AD56F2EF6 /* ClearMark.swift in Sources */,
+				8AAF44C3710F0E973DA30C0B /* ContentView.swift in Sources */,
+				E682D666C57A8814B67E86A9 /* Forfeit.swift in Sources */,
+				E018DC319D32186E17ED3521 /* ForfeitRail.swift in Sources */,
+				5C9DDC1F05F249D23EE0922C /* Name.swift in Sources */,
+				FB556BF1AA914662189FA0FE /* NightBook.swift in Sources */,
+				9CF95B5248F96E649226CF40 /* NightLedger.swift in Sources */,
+				0F2B31F4F9B9259446D6C9FC /* NightStamp.swift in Sources */,
+				0C96B895E7A6892084E7EC68 /* OnboardingPamphlet.swift in Sources */,
+				2009B0E39A14F2017428EE49 /* Pack.swift in Sources */,
+				E6A6E05ED027E0A2305ABCF5 /* PackHeat.swift in Sources */,
+				77D01D8CEAF3E151B32BE341 /* PackHeatStrip.swift in Sources */,
+				F04E4D0519ADADA40A1AC08F /* PackSeal.swift in Sources */,
+				31ADF94442C7040C2D03724B /* ParlorArt.swift in Sources */,
+				A74AFED969973CB90BC0FAD9 /* ParlorDesk.swift in Sources */,
+				BE362F07BBFF5E49F5F561A5 /* ParlorFigures.swift in Sources */,
+				D1320071BF23CAFDD8B05F5F /* ParlorInk.swift in Sources */,
+				C6422B71FDF5F0E157C42E68 /* ParlorLift.swift in Sources */,
+				EB1A0413C031DD494C48277F /* ParlorPacks.swift in Sources */,
+				E4E814C5D373A749AADEA1A5 /* ParlorPress.swift in Sources */,
+				2F040C0F6861F584A6D4DB3E /* ParlorSheet.swift in Sources */,
+				F51E8052533201D0116F5BE4 /* ReviewStage.swift in Sources */,
+				751741436D7EBCD2153BB49F /* StackMark.swift in Sources */,
+				23936911666E372F1AF295B8 /* WheelChart.swift in Sources */,
+				E5A8C553F5914A33DEFB742F /* WheelTurn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1833915A13995146843229D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E694F678A0FEB71C4EDCE32 /* AmerceTests.swift in Sources */,
+				14C3DB6A09921870E8C18BC6 /* ArenaVaultTests.swift in Sources */,
+				469CE04E1ADD3AFFCDB76FAA /* CardRunnerTests.swift in Sources */,
+				16F1E41DB88A95B727F94EE0 /* FamilyInvariantTests.swift in Sources */,
+				74732D98155DC3491F23DD38 /* ForfeitFoldTests.swift in Sources */,
+				79E27639D1A6E650FCCE5DB9 /* ReviewStageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7D93F9180231300ADF44CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B7ED2312DE5D9801D6C7515 /* Amerce */;
+			targetProxy = 38B113330BC864EEBDA2ACA3 /* PBXContainerItemProxy */;
+		};
+		E85A528E7FA195A18501C450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5789EC084F0A534B7E1792B5 /* OneSignalNotificationServiceExtension */;
+			targetProxy = BE21D8D40784F943AA72A607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		349D3B6ED5ADB58CD97C5F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		56AE4C31B6D143D9B9AD4A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amerce.gage.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amerce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amerce";
+			};
+			name = Debug;
+		};
+		9A1D5D193758D8330D6EA271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Amerce.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Amerce-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Amerce;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amerce.gage;
+				PRODUCT_NAME = Amerce;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3CEBB442E86DA3FCF23B12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amerce.gage.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0D0FF79BC4BF0CE5DFA21E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		C4C296BB4119215D8FB2E989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amerce.gage.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFAFC53B48A05AEA348BE1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Amerce.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Amerce-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Amerce;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amerce.gage;
+				PRODUCT_NAME = Amerce;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8DF635D011DDC2B30CF6524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amerce.gage.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amerce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amerce";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		553C371B6602C46D8F63BC88 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C296BB4119215D8FB2E989 /* Debug */,
+				A3CEBB442E86DA3FCF23B12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6FA5B8963268ECC8AE51237C /* Build configuration list for PBXProject "Amerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349D3B6ED5ADB58CD97C5F2C /* Debug */,
+				C0D0FF79BC4BF0CE5DFA21E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F81B92E1F781FFAF8DB2167 /* Build configuration list for PBXNativeTarget "AmerceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AE4C31B6D143D9B9AD4A4A /* Debug */,
+				D8DF635D011DDC2B30CF6524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE5F2DE1F6ADE58F0C75D3B2 /* Build configuration list for PBXNativeTarget "Amerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1D5D193758D8330D6EA271 /* Debug */,
+				CFAFC53B48A05AEA348BE1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B7F86C0D6F8B4CDA44CB999 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		C932D69F9C44E4DD45E3D963 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A00DD67CDC41659AC2D3294 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B7F86C0D6F8B4CDA44CB999 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		3768A631DF7D9FCE42C8EE7F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C932D69F9C44E4DD45E3D963 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		8D91F9C5CE936E0C70CD3A44 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B7F86C0D6F8B4CDA44CB999 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		D1ED860BA62AAB13535C30B2 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B7F86C0D6F8B4CDA44CB999 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 86E408C4AD3634C82C8C99B3 /* Project object */;
+}

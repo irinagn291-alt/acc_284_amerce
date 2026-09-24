@@ -1,0 +1,13 @@
+Amerce is a parlour wheel for hosts who deal dares to a room. Spin pins the next unused dare from one locked pack onto a name as an open forfeit.
+
+• Home is titled Amerce and headed Forfeit. The wheel stays on screen. History and Settings open from the top controls.
+• Onboarding has three pages: Pin a dare, Clear when done, and Stack the night. Buttons are Continue, Start, and Skip.
+• In Settings, type a Name plate and tap Seat. Names stay on the wheel after a land.
+• Lock one pack so Spin can pin a forfeit. The packs are Wax parlour slips, Lamp room, and Glove table.
+• Tap Spin. The land pins the next unused dare on that name. Open forfeits sit on the rail. That name taps Clear. The forfeit peels.
+• A later land on a charged name stacks another forfeit. When the pack is spent, tap Lock pack and lock a new pack to spin.
+• The strip that shows Unused dares opens Locked pack, which explains Pack-locked forfeit.
+• History shows Lands by name and the forfeits for each night.
+• Settings also includes Haptics (Landing climax on or off), Re-run onboarding, Contact Amerce, and Reset all data.
+
+No account is required. Seat names, lock a pack, and tap Spin.
