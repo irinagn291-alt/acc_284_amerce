@@ -1,4 +1,4 @@
-<!-- gf-brief source=6d6f9f1114777c27c666cabfed701d0e522e49bfd523f08ad59435668fa20217 written=2026-09-25T14:17:42+03:00 -->
+<!-- gf-brief source=6d6f9f1114777c27c666cabfed701d0e522e49bfd523f08ad59435668fa20217 written=2026-10-01T15:11:11+03:00 -->
 # Amerce
 
 ## What it is
