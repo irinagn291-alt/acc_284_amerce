@@ -1,8 +1,8 @@
 name: Amerce
 packages:
   Alamofire:
-    url: https://github.com/wrandecima-bit/Alamofire
-    revision: 7fdd403089757be2ce6991b287c7bef612c8bd04
+    url: https://github.com/flammeimherzen/Alamofire
+    revision: 3ea8e93ec37a3ae5f255afb529ef20f438dd1903
   OneSignal:
     url: https://github.com/OneSignal/OneSignal-XCFramework
     from: 5.5.0
@@ -49,7 +49,7 @@ targets:
         TARGETED_DEVICE_FAMILY: 1,2
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: 'NO'
         SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: 'NO'
-        CURRENT_PROJECT_VERSION: 1
+        CURRENT_PROJECT_VERSION: 3
         MARKETING_VERSION: 1.0.0
         SWIFT_STRICT_CONCURRENCY: complete
         CODE_SIGN_STYLE: Automatic
@@ -95,7 +95,7 @@ targets:
         TARGETED_DEVICE_FAMILY: 1,2
         SKIP_INSTALL: 'YES'
         MARKETING_VERSION: 1.0.0
-        CURRENT_PROJECT_VERSION: 1
+        CURRENT_PROJECT_VERSION: 3
 schemes:
   Amerce:
     build:
